@@ -26,6 +26,7 @@ if (NOT DEFINED EMBEDDED)
       osqp_src
       "${CMAKE_CURRENT_SOURCE_DIR}/cs.c"
       "${CMAKE_CURRENT_SOURCE_DIR}/polish.c"
+      "${CMAKE_CURRENT_SOURCE_DIR}/repolish.c"
       "${CMAKE_CURRENT_SOURCE_DIR}/lin_sys.c"
     )
 endif()

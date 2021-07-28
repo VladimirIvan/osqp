@@ -13,6 +13,7 @@
 #include "lin_alg/test_lin_alg.h"
 #include "solve_linsys/test_solve_linsys.h"
 #include "demo/test_demo.h"
+#include "repolish/test_repolish.h"
 #include "basic_qp/test_basic_qp.h"
 #include "basic_qp2/test_basic_qp2.h"
 #include "non_cvx/test_non_cvx.h"
@@ -29,6 +30,7 @@ static const char* all_tests() {
   mu_run_test(test_lin_alg);
   mu_run_test(test_solve_linsys);
   mu_run_test(test_demo);
+  mu_run_test(test_repolish);
   mu_run_test(test_basic_qp);
   mu_run_test(test_basic_qp2);
   mu_run_test(test_non_cvx);
